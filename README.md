@@ -46,4 +46,4 @@ Si deseas personalizar el dominio o nombre del sitio automáticamente, puedes ut
 Requisitos previos:
 - Tener instalado Node.js (versión 16 o superior).
 - Estar ubicado en la raíz del proyecto.
-- Comando: node replace-domain.js midominio.com
+- Comando: `node replace-domain.js midominio.com`
