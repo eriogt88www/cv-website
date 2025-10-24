@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="robots" content="index, follow" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Erio Gutierrez",
+    "givenName": "Erio",
+    "familyName": "Gutierrez",
+    "gender": "Male",
+    "nationality": "Spanish",
+    "jobTitle": "Full-Stack Web Developer & Project Management & Scrum Master & Drupal 10 BackEnd Developer",
+    "url": "https://tudominio.com",
+    "image": "https://tudominio.com/assets/img/erio-profile.jpg",
+    "sameAs": [
+      "https://www.linkedin.com/in/erio-gutierrez/",
+      "https://github.com/eriogt88www",
+      "https://www.credly.com/users/erio-gutierrez",
+      "https://www.credly.com/users/erio-gutierrez-ll",
+    ],
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidad de Santiago de Compostela (USC)",
+        "url": "https://www.usc.gal/es/usc/",
+        "sameAs": "https://es.wikipedia.org/wiki/Universidad_de_Santiago_de_Compostela",
+        "degree": {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "MasterDegree",
+          "name": "Máster Universitario en Dirección de Proyectos"
+        }
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidad de las Ciencias Informáticas (UCI)",
+        "url": "https://www.uci.cu/",
+        "sameAs": "https://es.wikipedia.org/wiki/Universidad_de_las_Ciencias_Inform%C3%A1ticas",
+        "degree": {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "EngineeringDegree",
+          "name": "Ingeniería en Ciencias Informáticas"
+        }
+      }
+  ],
+  }
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Currículum profesional de Erio Gutierrez, Project Manager, Scrum Master, Full-Stack Web Developer, Drupal 10 BackEnd Developer." />
+  <meta name="author" content="Erio Gutierrez" />
+  <meta name="keywords" content="Project Manager, Scrum, Agile, IA, Erio, Gutierrez, PMI, PM2, Lean, Extreme Programming, XP, Drupal, PHP, PostgreSql, ExtJs, Doctrine" />
+
+  <!-- SEO -->
+  <meta property="og:title" content="Currículum de Erio Gutierrez" />
+  <meta property="og:description" content="Gestor de proyectos | Project Manager | Scrum Master | Drupal 10 | PHP Developer" />
+  <meta property="og:image" content="assets/img/erio-profile.jpg" />
+  <meta property="og:type" content="website" />
+
+  <title>Currículum | Erio Gutierrez</title>
+  <link rel="icon" href="assets/img/favicon.ico" />
+
+  <!-- Bootstrap local -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/fontawesome/fontawesome-free/css/all.min.css" />
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- Sidebar izquierda fuera del grid -->
+  <nav id="sidebar" class="bg-dark sidebar" role="navigation" aria-label="Menú lateral principal">
+    <div class="pt-3 text-white">
+      <div class="text-center mb-4">
+        <img src="assets/img/erio-profile.jpg" alt="Foto de perfil" class="rounded-circle img-fluid w-75 border border-light" style="max-width: 50%;" />
+        <h3 id="name"></h3>
+        <p id="title" class="text-white"></p>
+        <a id="linkedin" target="_blank" rel="noopener"
+          class="btn btn-outline-light btn-sm mt-2 p-1 d-inline-block btn-sm d-flex align-items-center justify-content-center mx-auto" 
+          style="border-radius: 50%; width: 2.5em; height: 2.5em; display: flex; align-items: center; justify-content: center; margin: 0 auto;" title="LinkedIn">
+          <i class="fa-brands fa-linkedin" style="font-size:1.4em;"></i>
+        </a>
+      </div>
+
+      <ul class="nav flex-column text-start px-3">
+        <li class="nav-item"><a class="nav-link text-white" href="#about"><i class="fas fa-user menu-icon"></i>Sobre mí</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#experience"><i class="fas fa-briefcase menu-icon"></i>Experiencia</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#education"><i class="fas fa-graduation-cap menu-icon"></i>Formación</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#certifications"><i class="fas fa-certificate menu-icon"></i>Certificaciones</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#courses"><i class="fas fa-book-open menu-icon"></i>Cursos</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contact"><i class="fas fa-envelope menu-icon"></i>Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="px-md-4 py-4 content" style="margin-left: 20% !important;">
+    <div class="container">
+      <section id="about" class="mb-5">
+        <h2>Sobre mí</h2>
+        <p id="about-master"></p>
+        <p id="about-grade"></p>
+      </section>
+
+      <section id="experience" class="mb-5">
+        <h2>Experiencia</h2>
+        <div id="experience-list"></div>
+      </section>
+
+      <section id="education" class="mb-5">
+        <h2>Formación</h2>
+        <div id="education-list"></div>
+      </section>
+
+      <section id="certifications">
+        <h2>Certificaciones</h2>
+        <div id="certification-list" class="row"></div>
+      </section>
+
+      <section id="courses">
+        <h2>Cursos</h2>
+        <div id="courses-list" class="row"></div>
+      </section>
+
+      <section id="contact">
+        <h2>Contacto</h2>
+        <p id="contact-info"></p>
+      </section>
+
+      <footer class="text-center text-muted py-3 border-top">
+        <p>© <span id="year"></span> Erio Gutierrez. Todos los derechos reservados.</p>
+      </footer>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
