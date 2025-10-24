@@ -1,0 +1,132 @@
+/* Mejoras responsive y animaciones */
+@media (max-width: 991px) {
+  #sidebar {
+    position: static;
+    width: 100%;
+    min-width: unset;
+    max-width: unset;
+    height: auto;
+    z-index: 1030;
+    padding: 0.5rem 0.5rem;
+  }
+  #sidebar .nav.flex-column {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+  }
+  #sidebar .nav.flex-column .nav-item {
+    margin-bottom: 0;
+  }
+}
+
+#sidebar a.nav-link {
+  transition: color 0.2s, background 0.2s;
+}
+
+main.content {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+@media (max-width: 991px) {
+  main.content {
+    margin-left: 0 !important;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+
+#sidebar {
+  min-height: 100vh;
+  padding: 1rem;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 1030;
+  overflow-y: auto;
+}
+#sidebar .nav-link .menu-icon {
+  font-size: 1.2em;
+  margin-right: 1.2em;
+  vertical-align: middle;
+  color: inherit;
+}
+
+#sidebar a.nav-link.active {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+#sidebar a.nav-link:hover {
+  color: #007bff !important;
+  background-color: transparent;
+}
+
+#sidebar .nav .nav-item {
+  margin-bottom: 0.7em;
+}
+
+section {
+  scroll-margin-top: 30px;
+}
+
+img.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+img.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.badge-container {
+  width: 50%;              /* Ancho fijo del contenedor */
+  height: 50%;             /* Alto fijo del contenedor */
+  margin: 0 auto;            /* Centra horizontalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;    /* Fondo neutro opcional */
+  border-radius: 8px;        /* Bordes suaves */
+  overflow: hidden;          /* Recorta exceso de imagen */
+  box-shadow: 1 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 5px;
+}
+
+.badge-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;        /* Mantiene proporción sin deformar */
+  transition: transform 0.2s ease-in-out;
+}
+
+.badge-img:hover {
+  transform: scale(1.05);
+}
+
+.container #about,#experience p {
+  text-align: justify;
+}
+
+ #linkedin:hover {
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    border-color: #007bff !important;
+    color: #f8f9fa !important;
+    transform: scale(1.05);
+}
+
