@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const p = profileData;
   document.getElementById("name").textContent = p.name;
   document.getElementById("title").textContent = p.title;
+  document.getElementById("sm-name").textContent = p.name;
+  document.getElementById("sm-title").textContent = p.title;
   document.getElementById("about-master").textContent = p.aboutMaster;
   document.getElementById("about-grade").textContent = p.aboutGrade;
   document.getElementById("linkedin").href = p.linkedin;
@@ -64,5 +66,22 @@ document.addEventListener("DOMContentLoaded", () => {
         <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year} </small></p>
       </div>
     `;
+  });
+
+  const btnScrollTop = document.getElementById("btn-scroll-top");
+  window.addEventListener("scroll", function() {
+    if (window.scrollY > 200) { // Muestra el botón después de 200px de scroll
+      btnScrollTop.style.display = "block";
+    } else {
+      btnScrollTop.style.display = "none";
+    }
+  });
+  // Desplazar a la parte superior de la página
+  btnScrollTop.addEventListener("click", function(event) {
+    event.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth" // Desplazamiento suave
+    });
   });
 });

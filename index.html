@@ -71,9 +71,44 @@
 
 <body>
   <div class="container-fluid">
+    <!-- Navbar superior visible solo en móviles, con el bloque de perfil -->
+    <nav class="navbar navbar-dark bg-dark d-lg-none">
+      <div class="container-fluid">
+        <div id="sm-perfil" class="w-100">
+           <div class="text-center text-white">
+            <a href="#about">
+              <img src="assets/img/erio-profile.jpg" alt="Foto de perfil" class="rounded-circle img-fluid w-75 border border-light logo-sidebar" 
+                style="max-width: 10%;"/>
+            </a>        
+            <h3 id="sm-name"></h3>
+            <p id="sm-title" class="text-white"></p>
+            <a id="linkedin"
+              target="_blank" 
+              rel="noopener"
+              class="btn btn-outline-light btn-sm mt-2 p-1 d-inline-block btn-sm d-flex align-items-center justify-content-center mx-auto" 
+              style="border-radius: 50%; width: 2.5em; height: 2.5em; display: flex; align-items: center; justify-content: center; margin: 0 auto;" 
+              title="LinkedIn">
+              <i class="fa-brands fa-linkedin" style="font-size:1.3em;"></i>
+            </a>
+          </div>
+
+          <div class="container-fluid d-flex justify-content-center align-items-center">
+            <ul class="nav flex-row text-start">
+              <li class="nav-item"><a class="nav-link text-white" data-bs-toggle="tooltip" href="#about" title="Sobre mí"><i class="fas fa-user menu-icon"></i></a></li>
+              <li class="nav-item"><a class="nav-link text-white" data-bs-toggle="tooltip" href="#experience" title="Experiencia"><i class="fas fa-briefcase menu-icon"></i></a></li>
+              <li class="nav-item"><a class="nav-link text-white" data-bs-toggle="tooltip" href="#education" title="Formación"><i class="fas fa-graduation-cap menu-icon"></i></a></li>
+              <li class="nav-item"><a class="nav-link text-white" data-bs-toggle="tooltip" href="#certifications" title="Certificaciones"><i class="fas fa-certificate menu-icon"></i></a></li>
+              <li class="nav-item"><a class="nav-link text-white" data-bs-toggle="tooltip" href="#courses" title="Cursos"><i class="fas fa-book-open menu-icon"></i></a></li>
+              <li class="nav-item"><a class="nav-link text-white" data-bs-toggle="tooltip" href="#contact" title="Contacto"><i class="fas fa-envelope menu-icon"></i></a></li>
+            </ul>
+          </div>      
+        </div>
+      </div>
+    </nav>
+
     <div class="row">
       <!-- Sidebar -->
-      <nav id="sidebar" class="bg-dark sidebar d-none d-md-block col-lg-2 order-2 order-lg-1 sticky-top vh-100" 
+      <nav id="sidebar" class="bg-dark sidebar d-none d-lg-block col-lg-2 sticky-top vh-100" 
         role="navigation" aria-label="Menú lateral principal">
         <div class="pt-3 text-white">
           <div class="text-center mb-4">
@@ -105,7 +140,7 @@
       </nav>
 
       <!-- Contenido principal -->
-      <main class="content col-12 col-lg-10 order-1 order-lg-2" >
+      <main class="content col-12 col-md-12 col-lg-10">
         <div class="container p-3">
           <section id="about" class="mb-5">
             <h2>Sobre mí</h2>
@@ -145,6 +180,9 @@
       </main>
     </div>
   </div>
+  <a href="#" id="btn-scroll-top" class="btn btn-dark rounded-circle" aria-label="Subir">
+    <i class="fas fa-arrow-up"></i>
+  </a>
 
   <!-- Scripts -->
   <script src="assets/js/bootstrap.bundle.min.js"></script>
