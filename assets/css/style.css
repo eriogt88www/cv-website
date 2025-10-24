@@ -1,25 +1,3 @@
-/* Mejoras responsive y animaciones */
-@media (max-width: 991px) {
-  #sidebar {
-    position: static;
-    width: 100%;
-    min-width: unset;
-    max-width: unset;
-    height: auto;
-    z-index: 1030;
-    padding: 0.5rem 0.5rem;
-  }
-  #sidebar .nav.flex-column {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
-  }
-  #sidebar .nav.flex-column .nav-item {
-    margin-bottom: 0;
-  }
-}
-
 #sidebar a.nav-link {
   transition: color 0.2s, background 0.2s;
 }
@@ -30,13 +8,6 @@ main.content {
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
 }
 
-@media (max-width: 991px) {
-  main.content {
-    margin-left: 0 !important;
-    border-radius: 0;
-    box-shadow: none;
-  }
-}
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f8f9fa;
@@ -51,11 +22,9 @@ h2 {
 #sidebar {
   min-height: 100vh;
   padding: 1rem;
-  width: 20%;
-  position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  /*height: 100vh;*/
   z-index: 1030;
   overflow-y: auto;
 }
