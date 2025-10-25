@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (showCompany) shownCompanies.add(e.companyId);
 
     expList.innerHTML += `
-      <div class="mb-4">
+      <div class="mb-3">
         ${showCompany ? `<h5><img src="${e.logo}" class="logo" alt="">${e.company}</h5>` : ""}
         <p><strong>${e.role}</strong> (${e.period})</p>
         <p>${e.description}</p>
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const certList = document.getElementById("certification-list");
   p.certifications.forEach(c => {
     certList.innerHTML += `
-      <div class="col-6 col-md-3 text-center mb-4">
+      <div class="col-6 col-md-3 text-center mb-2">
         <a href="${c.link}" target="_blank" rel="noopener">
           <div class="badge-container">
             <img src="${c.badge}" alt="${c.name}" class="img-fluid rounded badge-img" />
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const courList = document.getElementById("courses-list");
   p.courses.forEach(c => {
     courList.innerHTML += `
-      <div class="col-6 col-md-3 text-center mb-3">
+      <div class="col-6 col-md-3 text-center mb-2">
         <a href="${c.link}" target="_blank" rel="noopener">
           <div class="badge-container">
             <img src="${c.badge}" alt="${c.name}" class="img-fluid rounded mb-2 badge-img" />

@@ -71,7 +71,7 @@ const profileData = {
     {
       company: "Empresa de Tecnologías de la Información",
       companyId: 4,
-      role: "Program Manager | ",
+      role: "Program Manager",
       period: "09/2012 - 12/2013",
       description: "Gestión y coordinación en la fase de despliegue y explotación experimental de 6 proyectos estratégicos: " + 
         "programa de mejora, infraestructura tecnológica, videovigilancia y 3 sistemas de gestión. Supervisión de la implementación, " + 
