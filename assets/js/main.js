@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
   p.certifications.forEach(c => {
     certList.innerHTML += `
       <div class="col-6 col-md-3 text-center mb-2">
-        <a href="${c.link}" target="_blank" rel="noopener">
+        <a href="${c.link}" target="_blank" rel="noopener noreferrer">
           <div class="badge-container">
             <img src="${c.badge}" alt="${c.name}" class="img-fluid rounded badge-img" />
           </div>
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
   p.courses.forEach(c => {
     courList.innerHTML += `
       <div class="col-6 col-md-3 text-center mb-2">
-        <a href="${c.link}" target="_blank" rel="noopener">
+        <a href="${c.link}" target="_blank" rel="noopener noreferrer">
           <div class="badge-container">
             <img src="${c.badge}" alt="${c.name}" class="img-fluid rounded mb-2 badge-img" />
           </div>
