@@ -96,7 +96,14 @@ const profileData = {
     }
   ],
 
-  certifications: [    
+  certifications: [  
+    {
+      name: "Kanban Essentials with AI Certified",
+      issuer: "KanbanStudy",
+      badge: "assets/img/badges/ss-kewia.png",
+      link: "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/KanbanEssentialswithAICertified-ErioGutierrez-1118854.pdf",
+      year: "10/2025"
+    },
     {
       name: "Forcontu Expert in Drupal 10 Back-End Development",
       issuer: "Forcontu",
