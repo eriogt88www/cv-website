@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch('/assets/js/schema/person-schema.jsonld')
+  fetch('../assets/js/schema/person-schema.jsonld')
     .then(response => response.text())
     .then(jsonld => {
       const script = document.createElement('script');
