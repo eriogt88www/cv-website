@@ -1,0 +1,127 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Erio Gutierrez",
+    "givenName": "Erio",
+    "familyName": "Gutierrez",
+    "gender": "Male",
+    "nationality": "Spanish",
+    "jobTitle": "Full-Stack Web Developer & Project Management & Scrum Master & Drupal 10 BackEnd Developer",
+    "url": "https://eriogt88www.github.io/cv-website",
+    "sameAs": [
+      "https://www.linkedin.com/in/erio-gutierrez/",
+      "https://github.com/eriogt88www",
+      "https://www.credly.com/users/erio-gutierrez",
+      "https://www.credly.com/users/erio-gutierrez-ll"
+    ],
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidad de Santiago de Compostela (USC)",
+        "url": "https://www.usc.gal/es/usc/",
+        "sameAs": "https://es.wikipedia.org/wiki/Universidad_de_Santiago_de_Compostela",
+        "degree": {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "MasterDegree",
+          "name": "Máster Universitario en Dirección de Proyectos"
+        }
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidad de las Ciencias Informáticas (UCI)",
+        "url": "https://www.uci.cu/",
+        "sameAs": "https://es.wikipedia.org/wiki/Universidad_de_las_Ciencias_Inform%C3%A1ticas",
+        "degree": {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "EngineeringDegree",
+          "name": "Ingeniería en Ciencias Informáticas"
+        }
+      }
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Accredited Scrum Fundamentals Certification (AICS® ASFC)",
+        "url": "https://badgr.com/public/assertions/6qvy85mHQWOlREm0w9NgMQ"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Software Testing Annual Report Contributor 2025 (STARC 2025)",
+        "url": "https://badgr.com/public/assertions/Pxs6335bRbixR7YiOLHoew"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Kanban Essentials with AI Certified (KEC)",
+        "url": "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/KanbanEssentialswithAICertified-ErioGutierrez-1118854.pdf"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Forcontu Expert in Drupal 10 Back-End Development",
+        "url": "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA25022265&field_s_certificado_codautentica_value=5b008"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Agile Marketing Certified Associate (AMCA)",
+        "url": "https://campus.certjoin.com/mod/customcert/verify_certificate.php?code=5ynI5Hf66e&qrcode=1"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Certified SAFe® 6 Agilist",
+        "url": "https://www.credly.com/go/okQgyxP6"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Kanban Awareness Certified",
+        "url": "https://badges.innovativelearning.eu/badge/67b23044-466f-4645-8522-689d067d68f7"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Scrum for Operations and DevOps Fundamentals Certified (SODFC™)",
+        "url": "https://www.scrumstudy.com/certification/verify?type=SODFC&number=1013735"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Accredited Scrum Fundamentals Certification (AICS® ASFC)",
+        "url": "https://badgr.com/public/assertions/6qvy85mHQWOlREm0w9NgMQ"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Agile Fundation",
+        "url": "https://scrummanager.com/website/c/verify-cert.php?code=67adac437521b7.28384046"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Scrum Fundamentals Certified (SFC™)",
+        "url": "https://www.scrumstudy.com/certification/verify?type=SFC&number=1067905"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Scrum Master",
+        "url": "https://scrummanager.com/website/c/verify-cert.php?code=67adac437521b7.28384046"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Scrum Awareness Certified",
+        "url": "https://badges.innovativelearning.eu/badge/6a0ea363-28b0-44a1-9a36-57ca6d6946b9"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Google Project Management Professional Certificate",
+        "url": "https://www.credly.com/go/3Y3Pp08P"
+      }
+    ]
+  }
