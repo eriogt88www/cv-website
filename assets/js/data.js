@@ -96,11 +96,18 @@ const profileData = {
     }
   ],
 
-  certifications: [  
+  certifications: [
     {
-      name: "Kanban Essentials with AI Certified",
+      name: "Software Testing Annual Report Contributor 2025 (STARC 2025)",
+      issuer: "AICS®",
+      badge: "assets/img/badges/aics-starc.png",
+      link: "https://badgr.com/public/assertions/Pxs6335bRbixR7YiOLHoew",
+      year: "10/2025"
+    },
+    {
+      name: "Kanban Essentials with AI Certified (KEC)",
       issuer: "KanbanStudy",
-      badge: "assets/img/badges/ss-kewia.png",
+      badge: "assets/img/badges/ss-kewia-2.png",
       link: "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/KanbanEssentialswithAICertified-ErioGutierrez-1118854.pdf",
       year: "10/2025"
     },
@@ -114,21 +121,21 @@ const profileData = {
     {
       name: "Agile Marketing Certified Associate (AMCA)",
       issuer: "CertJoin",
-      badge: "assets/img/badges/amca.png",
+      badge: "assets/img/badges/cf-amca.webp",
       link: "https://campus.certjoin.com/mod/customcert/verify_certificate.php?code=5ynI5Hf66e&qrcode=1",
       year: "03/2025"
     },
     {
       name: "Certified SAFe® 6 Agilist",
       issuer: "Scaled Agile, Inc.",
-      badge: "assets/img/badges/certified-safe-6-agilist.png",
+      badge: "assets/img/badges/safe6-sa.svg",
       link: "https://www.credly.com/go/okQgyxP6",
       year: "03/2025"
     },
     {
       name: "Kanban Awareness Certified",
       issuer: "iLEARN Innovative Learning",
-      badge: "assets/img/badges/ilearn-kac.jpeg",
+      badge: "assets/img/badges/ilearn-kac-2.png",
       link: "https://badges.innovativelearning.eu/badge/67b23044-466f-4645-8522-689d067d68f7",
       year: "03/2025"
     },
@@ -183,7 +190,7 @@ const profileData = {
     },
   ],
 
-  courses: [
+  courses: [    
     {
       name: "Practical Application of Generative AI for Project Managers",
       issuer: "PMI",
@@ -194,7 +201,7 @@ const profileData = {
     {
       name: "Diseño y Gestión de BD SQL: modelado, consultas avanzadas y administración",
       issuer: "Bilib",
-      badge: "assets/img/cursos/bilib.jpeg",
+      badge: "assets/img/cursos/bilib.svg",
       link: "https://formados.bilib.es/csv/dVFFQ3NZK3FLZCs1VXRNPQ",
       year: "09/2025"
     },
@@ -208,7 +215,7 @@ const profileData = {
     {
       name: "Transformación de la Empresa con Inteligencia Artificial de Microsoft",
       issuer: "Microsoft Learning",
-      badge: "assets/img/cursos/microsoft_learning.jpeg",
+      badge: "assets/img/cursos/microsoft_learning.png",
       link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/plfmbme4",
       year: "07/2025"
     },
@@ -222,7 +229,7 @@ const profileData = {
     {
       name: "Metodologías para la Gestión de Proyectos TIC",
       issuer: "Bilib",
-      badge: "assets/img/cursos/bilib.jpeg",
+      badge: "assets/img/cursos/bilib.svg",
       link: "https://formados.bilib.es/csv/c1JZRDFKV2lMTENyWExnPQ",
       year: "04/2025"
     },
@@ -243,7 +250,7 @@ const profileData = {
     {
       name: "Google Project Management",
       issuer: "Google",
-      badge: "assets/img/cursos/google.jpeg",
+      badge: "assets/img/cursos/google.png",
       link: "https://www.coursera.org/account/accomplishments/professional-cert/J0FG8IRAO9MT",
       year: "01/2025"
     },
