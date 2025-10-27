@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadJsonLd();
   const p = profileData;
   document.getElementById("name").textContent = p.name;
   document.getElementById("title").textContent = p.title;
@@ -85,3 +86,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+async function loadJsonLd() {
+  try {
+    const pathParts = window.location.pathname.split("/").filter(p => p.length > 0);
+    const basePath = pathParts.length > 0 ? `/${pathParts[0]}` : "";
+    const jsonldUrl = `${basePath}/assets/js/schema/person-schema.jsonld`;
+
+    const response = await fetch(jsonldUrl);
+    if (!response.ok) throw new Error(`HTTP error! status : ${response.status}`);
+    const data = await response.text();
+
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.textContent = data;
+    document.head.appendChild(script);
+  } catch (error) {
+    console.error("Error al cargar el JSON-LD: ", error);
+  }
+}
