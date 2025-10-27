@@ -1,4 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
+  fetch('/assets/js/schema/person-schema.jsonld')
+    .then(response => response.text())
+    .then(jsonld => {
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.text = jsonld;
+      document.head.appendChild(script);
+    })
+    .catch(err => console.error('Error to load JSON-LD:', err));
+
   const p = profileData;
   document.getElementById("name").textContent = p.name;
   document.getElementById("title").textContent = p.title;
