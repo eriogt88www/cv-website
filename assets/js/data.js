@@ -201,37 +201,62 @@ const profileData = {
     {
       name: "Diseño y Gestión de BD SQL: modelado, consultas avanzadas y administración",
       issuer: "Bilib",
-      badge: "assets/img/cursos/bilib.svg",
-      link: "https://formados.bilib.es/csv/dVFFQ3NZK3FLZCs1VXRNPQ",
+      badge: "assets/img/logos/bilib.svg",
+      badgeFull: "assets/img/certificaciones/bilib-sgbd.jpg",
+      link: "",
       year: "09/2025"
     },
     {
       name: "Inteligencia Artificial Responsable",
       issuer: "Founderz",
-      badge: "assets/img/cursos/founderz.jpeg",
+      badge: "assets/img/logos/founderz.jpeg",
       link: "https://learn.founderz.com/certificado/ai-skills-4-all-gl-iaresponsable/3c3fd0be-ff63-4cb9-8deb-07bba50f4d3e",
       year: "08/2025"
     },
     {
       name: "Transformación de la Empresa con Inteligencia Artificial de Microsoft",
       issuer: "Microsoft Learning",
-      badge: "assets/img/cursos/microsoft_learning.png",
+      badge: "assets/img/logos/microsoft_learning.png",
       link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/plfmbme4",
       year: "07/2025"
     },
     {
+      name: "Lifelong Learning 2025",
+      issuer: "Certiprof",
+      badge: "assets/img/badges/certiprof-learner.png",
+      link: "https://www.credly.com/badges/a17bc56d-8207-4f9a-b75e-a32a19375946",
+      year: "07/2025"
+    },
+    {
+      name: "DevOps Fundamentals - DASA",
+      issuer: "TecnoFor",
+      badge: "assets/img/logos/tecnofor.png",      
+      badgeFull: "assets/img/certificaciones/tecnofor-dasa.jpg",
+      link: "",
+      year: "05/2025"
+    },
+    {
       name: "Certificate of Accomplishment - Introduction to Drupal 10",
       issuer: "Forcontu",
-      badge: "assets/img/cursos/forcontu.svg",
+      badge: "assets/img/logos/forcontu.svg",
       link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=D10SBINI2222&field_s_certificado_codautentica_value=a641c",
       year: "05/2025"
     },
     {
       name: "Metodologías para la Gestión de Proyectos TIC",
       issuer: "Bilib",
-      badge: "assets/img/cursos/bilib.svg",
-      link: "https://formados.bilib.es/csv/c1JZRDFKV2lMTENyWExnPQ",
+      badge: "assets/img/logos/bilib.svg",
+      badgeFull: "assets/img/certificaciones/bilib-proyectos_tic.jpg",
+      link: "",
       year: "04/2025"
+    },
+    {
+      name: "The Basics of Scrum",
+      issuer: "PMI",
+      badge: "assets/img/logos/pmi.svg",
+      badgeFull: "assets/img/certificaciones/pmi-basic_scrum.jpg",
+      link: "",
+      year: "03/2025"
     },
     {
       name: "Generative AI Overview for Project Managers",
@@ -241,18 +266,58 @@ const profileData = {
       year: "03/2025"
     },
     {
+      name: "Gestión de Proyectos con Scrum Manager",
+      issuer: "Estratecno",
+      badge: "assets/img/logos/estratecno.png",
+      badgeFull: "assets/img/certificaciones/estratecno-scrum.jpg",
+      link: "",
+      year: "02/2025"
+    },
+    {
       name: "Registered Scrum Basics™",
       issuer: "Agile Education by Scrum Inc.™",
-      badge: "assets/img/cursos/rsb.png",
-      link: "https://s3.amazonaws.com/scruminc-certs/RSB-8046800",
+      badge: "assets/img/badges/scruminc-rsb.png",
+      badgeFull: "assets/img/certificaciones/scuminc-rsb.jpg",
+      link: "",
+      year: "02/2025"
+    },
+    {
+      name: "Leading SAFe®",
+      issuer: "Estratecno",
+      badge: "assets/img/logos/estratecno.png",
+      badgeFull: "assets/img/certificaciones/estratecno-safe.jpg",
+      link: "",
+      year: "02/2025"
+    },
+    {
+      name: "Scrum Foundation Learner 2025",
+      issuer: "Certiprof",
+      badge: "assets/img/badges/certiprof-scrum.png",
+      link: "https://www.credly.com/badges/fb4c8e54-263a-42e2-8759-624f42568393",
       year: "02/2025"
     },
     {
       name: "Google Project Management",
       issuer: "Google",
-      badge: "assets/img/cursos/google.png",
+      badge: "assets/img/logos/google.png",
       link: "https://www.coursera.org/account/accomplishments/professional-cert/J0FG8IRAO9MT",
       year: "01/2025"
+    },
+    {
+      name: "Gestión de Proyectos y Fundamentos de Metodología Agile",
+      issuer: "Santander Open Academy",
+      badge: "assets/img/logos/open-academy.png",
+      badgeFull: "assets/img/certificaciones/openacademy-agile.jpg",
+      link: "",
+      year: "10/2024"
+    },
+    {
+      name: "AmazonDB for Serverless Architectures",
+      issuer: "AWS Training and Certification",
+      badge: "assets/img/logos/aws.png",
+      badgeFull: "assets/img/certificaciones/aws-dynamodb.jpg",
+      link: "",
+      year: "10/2024"
     },
   ],
 };

@@ -104,6 +104,20 @@ img.logo {
   padding: 1rem;
 }
 
+#certificateImage {
+  pointer-events: none;
+  user-select: none;
+}
+
+.btn-close-white {
+  filter: invert(1) brightness(150%);
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+.btn-close-white:hover {
+  opacity: 1;
+}
+
 @media (max-width: 576px) {
   #courses-list .col-6,
   #certification-list .col-6 {
