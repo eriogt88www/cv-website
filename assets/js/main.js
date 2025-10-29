@@ -57,16 +57,48 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const courList = document.getElementById("courses-list");
   p.courses.forEach(c => {
-    courList.innerHTML += `
-      <div class="col-6 col-md-3 text-center mb-2">
-        <a href="${c.link}" target="_blank" rel="noopener noreferrer">
+    if (c.link && c.link.trim() !== "") {
+      courList.innerHTML += `
+        <div class="col-6 col-md-3 text-center mb-2">
+          <a href="${c.link}" target="_blank" rel="noopener noreferrer">
+            <div class="badge-container">
+              <img src="${c.badge}" alt="${c.name}" class="img-fluid mb-2 badge-img" />
+            </div>
+          </a>
+          <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year} </small></p>
+        </div>
+      `;
+    } else {
+      courList.innerHTML += `
+        <div class="col-6 col-md-3 text-center mb-2">
           <div class="badge-container">
-            <img src="${c.badge}" alt="${c.name}" class="img-fluid rounded mb-2 badge-img" />
+            <img src="${c.badge}" alt="${c.name}" 
+                 class="img-fluid mb-2 badge-img rounded shadow-sm open-modal" 
+                 data-img="${c.badgeFull || c.badge}" />
           </div>
-        </a>
-        <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year} </small></p>
-      </div>
-    `;
+          <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year}</small></p>
+        </div>
+      `;
+    }    
+  });
+
+   // Inicializar el modal Bootstrap  
+  const modalElement = document.getElementById('certificateModal');
+  const modal = new bootstrap.Modal(modalElement);
+  var modalImg = document.getElementById('certificateImage'); 
+
+  courList.addEventListener('click', (e) => {
+    const target = e.target.closest('.open-modal');
+    if (target) {
+      const imageSrc = target.getAttribute('data-img');
+      modalImg.src = imageSrc;
+      modal.show();
+    }
+  });
+
+  // Cuando se cierra el modal, limpiamos el src (buena práctica de rendimiento)
+  modalElement.addEventListener('hidden.bs.modal', () => {
+    modalImg.src = '';
   });
 
   const btnScrollTop = document.getElementById("btn-scroll-top");
