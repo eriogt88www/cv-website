@@ -192,6 +192,34 @@ const profileData = {
 
   courses: [    
     {
+      name: "Fundamentals of Agile Project Management",
+      issuer: "PMI",
+      badge: "assets/img/badges/pmi-kickoff_agile.png",
+      link: "https://www.credly.com/badges/28d030ff-f823-43bb-8825-daae6e1cdf33/linked_in_profile",
+      year: "11/2025"
+    },
+    {
+      name: "Fundamentos de GitHub (parte 1 de 2)",
+      issuer: "Microsoft Learning",
+      badge: "assets/img/badges/microsoft-learning_github_1.svg",
+      link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/wvaggb5n",
+      year: "10/2025"
+    },
+    {
+      name: "Trabaje de Forma más Inteligente con IA",
+      issuer: "Microsoft Learning",
+      badge: "assets/img/badges/microsoft-learning_generic_trophy.svg",
+      link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/hzy22jj8",
+      year: "10/2025"
+    },
+    {
+      name: "Empápate de IA",
+      issuer: "Founderz",
+      badge: "assets/img/logos/founderz.jpeg",
+      link: "https://learn.founderz.com/certificado/empapate-de-ia/3c3fd0be-ff63-4cb9-8deb-07bba50f4d3e",
+      year: "10/2025"
+    },
+    {
       name: "Practical Application of Generative AI for Project Managers",
       issuer: "PMI",
       badge: "assets/img/badges/pmi-genai.png",
@@ -216,7 +244,7 @@ const profileData = {
     {
       name: "Transformación de la Empresa con Inteligencia Artificial de Microsoft",
       issuer: "Microsoft Learning",
-      badge: "assets/img/logos/microsoft_learning.png",
+      badge: "assets/img/logos/microsoft-learning.png",
       link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/plfmbme4",
       year: "07/2025"
     },
@@ -317,7 +345,7 @@ const profileData = {
       badge: "assets/img/logos/aws.png",
       badgeFull: "assets/img/certificaciones/aws-dynamodb.jpg",
       link: "",
-      year: "10/2024"
+      year: "05/2024"
     },
   ],
 };
