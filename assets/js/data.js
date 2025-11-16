@@ -98,6 +98,20 @@ const profileData = {
 
   certifications: [
     {
+      name: "Authentication and Authorization for Web/API (LFEL1004)",
+      issuer: "The Linux Foundation",
+      badge: "assets/img/badges/linux-foundation_lfel1004.png",
+      link: "https://www.credly.com/badges/31ffac5e-ff07-46a2-9c58-d2204f21b86e/",
+      year: "11/2025"
+    },
+    {
+      name: "Scrum Foundations Certified Expert (SFCE)",
+      issuer: "CertJoin",
+      badge: "assets/img/badges/certjoin-sfce.png",
+      link: "https://badges.parchment.com/public/assertions/VhjdxmmlRSWy7AAvtigu8w",
+      year: "11/2025"
+    },
+    {
       name: "Software Testing Annual Report Contributor 2025 (STARC 2025)",
       issuer: "AICS®",
       badge: "assets/img/badges/aics-starc.png",
@@ -121,7 +135,7 @@ const profileData = {
     {
       name: "Agile Marketing Certified Associate (AMCA)",
       issuer: "CertJoin",
-      badge: "assets/img/badges/cf-amca.webp",
+      badge: "assets/img/badges/certjoin-amca.webp",
       link: "https://campus.certjoin.com/mod/customcert/verify_certificate.php?code=5ynI5Hf66e&qrcode=1",
       year: "03/2025"
     },
@@ -190,7 +204,35 @@ const profileData = {
     },
   ],
 
-  courses: [    
+  courses: [
+    {
+      name: "Project Management Fundamentals",
+      issuer: "IBM SkillsBuild",
+      badge: "assets/img/certificaciones/ibm-pm_fundamentals.png",
+      link: "https://www.credly.com/badges/80afc050-6ca8-4ff5-9e1e-e8e26d1b12a1",
+      year: "11/2025"
+    },
+    {
+      name: "Trabajo en remoto, mejoras en la comunicación",
+      issuer: "Ciudadanía Digital / Castilla-La Mancha",
+      badge: "assets/img/logos/ciudadania_digital.png",
+      link: "https://aulaciudadaniadigital.castillalamancha.es/mod/customcert/verify_certificate.php?code=LeS0PpJCgi&qrcode=1",
+      year: "11/2025"
+    },
+    {
+      name: "Explorar Microsoft 365 Copilot Chat",
+      issuer: "Microsoft Learning",
+      badge: "assets/img/badges/microsoft-learning_generic_trophy.svg",
+      link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/q5tggrhe",
+      year: "11/2025"
+    },
+    {
+      name: "Fundamentos de GitHub (2/2)",
+      issuer: "Microsoft Learning",
+      badge: "assets/img/badges/microsoft-learning_github_1.svg",
+      link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/fq26genx",
+      year: "11/2025"
+    },
     {
       name: "Fundamentals of Agile Project Management",
       issuer: "PMI",
@@ -199,7 +241,7 @@ const profileData = {
       year: "11/2025"
     },
     {
-      name: "Fundamentos de GitHub (parte 1 de 2)",
+      name: "Fundamentos de GitHub (1/2)",
       issuer: "Microsoft Learning",
       badge: "assets/img/badges/microsoft-learning_github_1.svg",
       link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/wvaggb5n",
@@ -244,7 +286,7 @@ const profileData = {
     {
       name: "Transformación de la Empresa con Inteligencia Artificial de Microsoft",
       issuer: "Microsoft Learning",
-      badge: "assets/img/logos/microsoft-learning.png",
+      badge: "assets/img/badges/microsoft-learning_ai_transform.svg",
       link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/plfmbme4",
       year: "07/2025"
     },
