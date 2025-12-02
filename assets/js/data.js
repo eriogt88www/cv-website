@@ -98,6 +98,13 @@ const profileData = {
 
   certifications: [
     {
+      name: "Expert in Drupal 10 Front-End Development",
+      issuer: "Forcontu",
+      badge: "assets/img/badges/forcontu-d10-fe-en.png",
+      link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA25032438&field_s_certificado_codautentica_value=9d6f5",
+      year: "12/2025"
+    },
+    {
       name: "Authentication and Authorization for Web/API (LFEL1004)",
       issuer: "The Linux Foundation",
       badge: "assets/img/badges/linux-foundation_lfel1004.png",
@@ -126,7 +133,7 @@ const profileData = {
       year: "10/2025"
     },
     {
-      name: "Forcontu Expert in Drupal 10 Back-End Development",
+      name: "Expert in Drupal 10 Back-End Development",
       issuer: "Forcontu",
       badge: "assets/img/badges/forcontu-d10-be-en.png",
       link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA25022265&field_s_certificado_codautentica_value=5b008",
@@ -205,6 +212,21 @@ const profileData = {
   ],
 
   courses: [
+    {
+      name: "Forcontu Expert in Drupal 10 Front-End Development",
+      issuer: "Forcontu",
+      badge: "assets/img/logos/forcontu.svg",
+      link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA25032438&field_s_certificado_codautentica_value=9d6f5",
+      year: "(09/2025 - 11/2025)"
+    },
+    {
+      name: "Atención al Cliente",
+      issuer: "Vangarda",
+      badge: "assets/img/logos/vangarda.png",      
+      badgeFull: "",
+      link: "",
+      year: "05/2025"
+    },
     {
       name: "Project Management Fundamentals",
       issuer: "IBM SkillsBuild",
@@ -296,6 +318,13 @@ const profileData = {
       badge: "assets/img/badges/certiprof-learner.png",
       link: "https://www.credly.com/badges/a17bc56d-8207-4f9a-b75e-a32a19375946",
       year: "07/2025"
+    },
+    {
+      name: "Forcontu Expert in Drupal 10 Back-End Development",
+      issuer: "Forcontu",
+      badge: "assets/img/logos/forcontu.svg",
+      link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA25022265&field_s_certificado_codautentica_value=5b008",
+      year: "(03/2025 - 06/2025)"
     },
     {
       name: "DevOps Fundamentals - DASA",
