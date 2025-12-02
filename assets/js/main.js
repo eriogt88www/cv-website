@@ -68,13 +68,24 @@ document.addEventListener("DOMContentLoaded", async () => {
           <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year} </small></p>
         </div>
       `;
-    } else {
+    } else if (c.badgeFull && c.badgeFull.trim() !== ""){
       courList.innerHTML += `
         <div class="col-6 col-md-3 text-center mb-2">
           <div class="badge-container">
             <img src="${c.badge}" alt="${c.name}" 
                  class="img-fluid mb-2 badge-img rounded shadow-sm open-modal" 
                  data-img="${c.badgeFull || c.badge}" />
+          </div>
+          <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year}</small></p>
+        </div>
+      `;
+    } else {
+      courList.innerHTML += `
+        <div class="col-6 col-md-3 text-center mb-2">
+          <div class="badge-container">
+            <img src="${c.badge}" alt="${c.name}" 
+                 class="img-fluid mb-2 badge-img rounded shadow-sm" 
+                 data-img="${c.badge}" />
           </div>
           <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year}</small></p>
         </div>
