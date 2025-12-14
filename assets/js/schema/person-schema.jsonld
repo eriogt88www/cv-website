@@ -11,8 +11,8 @@
     "sameAs": [
       "https://www.linkedin.com/in/erio-gutierrez/",
       "https://github.com/eriogt88www",
-      "https://www.credly.com/users/erio-gutierrez",
-      "https://www.credly.com/users/erio-gutierrez-ll"
+      "https://www.credly.com/users/erio-gutierrez/badges",
+      "https://learn.microsoft.com/es-es/users/erio-gutierrez"
     ],
     "alumniOf": [
       {
@@ -42,6 +42,18 @@
       {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "Certification",
+        "name": "Expert in Drupal 10 Front-End Development",
+        "url": "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA25032438&field_s_certificado_codautentica_value=9d6f5"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Authentication and Authorization for Web/API (LFEL1004)",
+        "url": "https://www.credly.com/badges/31ffac5e-ff07-46a2-9c58-d2204f21b86e"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
         "name": "Accredited Scrum Fundamentals Certification (AICS® ASFC)",
         "url": "https://badgr.com/public/assertions/6qvy85mHQWOlREm0w9NgMQ"
       },
@@ -55,7 +67,7 @@
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "Certification",
         "name": "Kanban Essentials with AI Certified (KEC)",
-        "url": "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/KanbanEssentialswithAICertified-ErioGutierrez-1118854.pdf"
+        "url": "https://www.scrumstudy.com/certification/verify?type=KEC&number=1118854"
       },
       {
         "@type": "EducationalOccupationalCredential",
