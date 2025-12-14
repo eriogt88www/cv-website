@@ -108,7 +108,7 @@ const profileData = {
       name: "Authentication and Authorization for Web/API (LFEL1004)",
       issuer: "The Linux Foundation",
       badge: "assets/img/badges/linux-foundation_lfel1004.png",
-      link: "https://www.credly.com/badges/31ffac5e-ff07-46a2-9c58-d2204f21b86e/",
+      link: "https://www.credly.com/badges/31ffac5e-ff07-46a2-9c58-d2204f21b86e",
       year: "11/2025"
     },
     {
@@ -129,7 +129,7 @@ const profileData = {
       name: "Kanban Essentials with AI Certified (KEC)",
       issuer: "KanbanStudy",
       badge: "assets/img/badges/ss-kewia-2.png",
-      link: "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/KanbanEssentialswithAICertified-ErioGutierrez-1118854.pdf",
+      link: "https://www.scrumstudy.com/certification/verify?type=KEC&number=1118854",
       year: "10/2025"
     },
     {
@@ -156,7 +156,7 @@ const profileData = {
     {
       name: "Kanban Awareness Certified",
       issuer: "iLEARN Innovative Learning",
-      badge: "assets/img/badges/ilearn-kac-2.png",
+      badge: "assets/img/badges/ilearn-kac.png",
       link: "https://badges.innovativelearning.eu/badge/67b23044-466f-4645-8522-689d067d68f7",
       year: "03/2025"
     },
@@ -225,7 +225,7 @@ const profileData = {
       badge: "assets/img/logos/vangarda.png",      
       badgeFull: "",
       link: "",
-      year: "05/2025"
+      year: "11/2025"
     },
     {
       name: "Project Management Fundamentals",
@@ -245,14 +245,14 @@ const profileData = {
       name: "Explorar Microsoft 365 Copilot Chat",
       issuer: "Microsoft Learning",
       badge: "assets/img/badges/microsoft-learning_generic_trophy.svg",
-      link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/q5tggrhe",
+      link: "https://learn.microsoft.com/es-es/users/erio-gutierrez/achievements/q5tggrhe",
       year: "11/2025"
     },
     {
       name: "Fundamentos de GitHub (2/2)",
       issuer: "Microsoft Learning",
       badge: "assets/img/badges/microsoft-learning_github_1.svg",
-      link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/fq26genx",
+      link: "https://learn.microsoft.com/es-es/users/erio-gutierrez/achievements/fq26genx",
       year: "11/2025"
     },
     {
@@ -266,14 +266,14 @@ const profileData = {
       name: "Fundamentos de GitHub (1/2)",
       issuer: "Microsoft Learning",
       badge: "assets/img/badges/microsoft-learning_github_1.svg",
-      link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/wvaggb5n",
+      link: "https://learn.microsoft.com/es-es/users/erio-gutierrez/achievements/wvaggb5n",
       year: "10/2025"
     },
     {
       name: "Trabaje de Forma más Inteligente con IA",
       issuer: "Microsoft Learning",
       badge: "assets/img/badges/microsoft-learning_generic_trophy.svg",
-      link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/hzy22jj8",
+      link: "https://learn.microsoft.com/es-es/users/erio-gutierrez/achievements/hzy22jj8",
       year: "10/2025"
     },
     {
@@ -309,7 +309,7 @@ const profileData = {
       name: "Transformación de la Empresa con Inteligencia Artificial de Microsoft",
       issuer: "Microsoft Learning",
       badge: "assets/img/badges/microsoft-learning_ai_transform.svg",
-      link: "https://learn.microsoft.com/es-es/users/eriogutierrez-4432/achievements/plfmbme4",
+      link: "https://learn.microsoft.com/es-es/users/erio-gutierrez/achievements/plfmbme4",
       year: "07/2025"
     },
     {
@@ -400,7 +400,7 @@ const profileData = {
       issuer: "Google",
       badge: "assets/img/logos/google.png",
       link: "https://www.coursera.org/account/accomplishments/professional-cert/J0FG8IRAO9MT",
-      year: "01/2025"
+      year: "(09/2024 - 01/2025)"
     },
     {
       name: "Gestión de Proyectos y Fundamentos de Metodología Agile",
