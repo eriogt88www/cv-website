@@ -215,7 +215,7 @@ const profileData = {
     {
       name: "Forcontu Expert in Drupal 10 Front-End Development",
       issuer: "Forcontu",
-      badge: "assets/img/logos/forcontu.svg",
+      badge: "assets/img/logos/forcontu.png",
       link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA25032438&field_s_certificado_codautentica_value=9d6f5",
       year: "(09/2025 - 11/2025)"
     },
@@ -223,7 +223,7 @@ const profileData = {
       name: "Atención al Cliente",
       issuer: "Vangarda",
       badge: "assets/img/logos/vangarda.png",      
-      badgeFull: "",
+      badgeFull: "assets/img/certificaciones/vangarda-atencion_cliente.jpg",
       link: "",
       year: "11/2025"
     },
@@ -237,7 +237,7 @@ const profileData = {
     {
       name: "Trabajo en remoto, mejoras en la comunicación",
       issuer: "Ciudadanía Digital / Castilla-La Mancha",
-      badge: "assets/img/logos/ciudadania_digital.png",
+      badge: "assets/img/logos/ciudadania_digital.jpg",
       link: "https://aulaciudadaniadigital.castillalamancha.es/mod/customcert/verify_certificate.php?code=LeS0PpJCgi&qrcode=1",
       year: "11/2025"
     },
@@ -293,7 +293,7 @@ const profileData = {
     {
       name: "Diseño y Gestión de BD SQL: modelado, consultas avanzadas y administración",
       issuer: "Bilib",
-      badge: "assets/img/logos/bilib.svg",
+      badge: "assets/img/logos/ciudadania_digital.jpg",
       badgeFull: "assets/img/certificaciones/bilib-sgbd.jpg",
       link: "",
       year: "09/2025"
@@ -322,7 +322,7 @@ const profileData = {
     {
       name: "Forcontu Expert in Drupal 10 Back-End Development",
       issuer: "Forcontu",
-      badge: "assets/img/logos/forcontu.svg",
+      badge: "assets/img/logos/forcontu.png",
       link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA25022265&field_s_certificado_codautentica_value=5b008",
       year: "(03/2025 - 06/2025)"
     },
@@ -337,14 +337,14 @@ const profileData = {
     {
       name: "Certificate of Accomplishment - Introduction to Drupal 10",
       issuer: "Forcontu",
-      badge: "assets/img/logos/forcontu.svg",
+      badge: "assets/img/logos/forcontu.png",
       link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=D10SBINI2222&field_s_certificado_codautentica_value=a641c",
       year: "05/2025"
     },
     {
       name: "Metodologías para la Gestión de Proyectos TIC",
       issuer: "Bilib",
-      badge: "assets/img/logos/bilib.svg",
+      badge: "assets/img/logos/ciudadania_digital.jpg",
       badgeFull: "assets/img/certificaciones/bilib-proyectos_tic.jpg",
       link: "",
       year: "04/2025"
