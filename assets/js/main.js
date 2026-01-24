@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       <div class="col-6 col-md-3 text-center mb-2">
         <a href="${c.link}" target="_blank" rel="noopener noreferrer">
           <div class="badge-container">
-            <img src="${c.badge}" alt="${c.name}" class="img-fluid rounded badge-img" />
+            <img src="${c.badge}" alt="${c.name}" class="img-fluid badge-img" />
           </div>
         </a>
         <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year} </small></p>
@@ -68,12 +68,12 @@ document.addEventListener("DOMContentLoaded", async () => {
           <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year} </small></p>
         </div>
       `;
-    } else if (c.badgeFull && c.badgeFull.trim() !== ""){
+    } else if (c.badgeFull && c.badgeFull.trim() !== "") {
       courList.innerHTML += `
         <div class="col-6 col-md-3 text-center mb-2">
           <div class="badge-container">
             <img src="${c.badge}" alt="${c.name}" 
-                 class="img-fluid mb-2 badge-img rounded shadow-sm open-modal" 
+                 class="img-fluid mb-2 badge-img open-modal" 
                  data-img="${c.badgeFull || c.badge}" />
           </div>
           <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year}</small></p>
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         <div class="col-6 col-md-3 text-center mb-2">
           <div class="badge-container">
             <img src="${c.badge}" alt="${c.name}" 
-                 class="img-fluid mb-2 badge-img rounded shadow-sm" 
+                 class="img-fluid mb-2 badge-img"
                  data-img="${c.badge}" />
           </div>
           <p><strong>${c.name}</strong><br><small>${c.issuer} - ${c.year}</small></p>

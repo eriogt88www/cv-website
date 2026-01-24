@@ -98,6 +98,20 @@ const profileData = {
 
   certifications: [
     {
+      name: "Master in Drupal 10",
+      issuer: "Forcontu",
+      badge: "assets/img/badges/forcontu-d10-master-en.png",
+      link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=D10MASTERCERT2552&field_s_certificado_codautentica_value=024b5",
+      year: "01/2026"
+    },
+    {
+      name: "Expert in Drupal 11 Site Building",
+      issuer: "Forcontu",
+      badge: "assets/img/badges/forcontu-d11-sb-en.png",
+      link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA26012539&field_s_certificado_codautentica_value=4d554",
+      year: "01/2026"
+    },
+    {
       name: "Expert in Drupal 10 Front-End Development",
       issuer: "Forcontu",
       badge: "assets/img/badges/forcontu-d10-fe-en.png",
@@ -213,6 +227,20 @@ const profileData = {
 
   courses: [
     {
+      name: "Forcontu Expert in Drupal 11 Site Building",
+      issuer: "Forcontu",
+      badge: "assets/img/logos/forcontu.png",
+      link: "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA26012539&field_s_certificado_codautentica_value=4d554",
+      year: "(11/2025 - 01/2026)"
+    },
+    {
+      name: "Lifelong Learning 2026",
+      issuer: "Certiprof",
+      badge: "assets/img/badges/certiprof-learner-2026.png",
+      link: "https://www.credly.com/badges/c862cfa9-7360-4f29-8422-2e314adfd53c",
+      year: "01/2026"
+    },
+    {
       name: "Forcontu Expert in Drupal 10 Front-End Development",
       issuer: "Forcontu",
       badge: "assets/img/logos/forcontu.png",
@@ -235,7 +263,7 @@ const profileData = {
       year: "11/2025"
     },
     {
-      name: "Trabajo en remoto, mejoras en la comunicación",
+      name: "Trabajo en Remoto, Mejoras en la Comunicación",
       issuer: "Ciudadanía Digital / Castilla-La Mancha",
       badge: "assets/img/logos/ciudadania_digital.jpg",
       link: "https://aulaciudadaniadigital.castillalamancha.es/mod/customcert/verify_certificate.php?code=LeS0PpJCgi&qrcode=1",
@@ -291,7 +319,7 @@ const profileData = {
       year: "10/2025"
     },
     {
-      name: "Diseño y Gestión de BD SQL: modelado, consultas avanzadas y administración",
+      name: "Diseño y Gestión de BD SQL: Modelado, Consultas Avanzadas y Administración",
       issuer: "Bilib",
       badge: "assets/img/logos/ciudadania_digital.jpg",
       badgeFull: "assets/img/certificaciones/bilib-sgbd.jpg",
@@ -315,7 +343,7 @@ const profileData = {
     {
       name: "Lifelong Learning 2025",
       issuer: "Certiprof",
-      badge: "assets/img/badges/certiprof-learner.png",
+      badge: "assets/img/badges/certiprof-learner-2025.png",
       link: "https://www.credly.com/badges/a17bc56d-8207-4f9a-b75e-a32a19375946",
       year: "07/2025"
     },
@@ -403,12 +431,54 @@ const profileData = {
       year: "(09/2024 - 01/2025)"
     },
     {
+      name: "Capstone: Applying Project Management in the Real World",
+      issuer: "Google/Coursera",
+      badge: "assets/img/logos/coursera.png",
+      link: "https://www.coursera.org/account/accomplishments/verify/EDMNE5DV9161",
+      year: "01/2025"
+    },
+    {
+      name: "Agile Project Management",
+      issuer: "Google/Coursera",
+      badge: "assets/img/logos/coursera.png",
+      link: "https://www.coursera.org/account/accomplishments/verify/RTG0QWZXQ7D1",
+      year: "01/2025"
+    },
+    {
+      name: "Project Execution: Running the Project",
+      issuer: "Google/Coursera",
+      badge: "assets/img/logos/coursera.png",
+      link: "https://www.coursera.org/account/accomplishments/verify/V366WXJ0YJX1",
+      year: "12/2024"
+    },
+    {
+      name: "Project Planning: Putting It All Together",
+      issuer: "Google/Coursera",
+      badge: "assets/img/logos/coursera.png",
+      link: "https://www.coursera.org/account/accomplishments/verify/2GFJLE2V6BM9",
+      year: "11/2024"
+    },
+    {
+      name: "Project Initiation: Starting a Successful Project",
+      issuer: "Google/Coursera",
+      badge: "assets/img/logos/coursera.png",
+      link: "https://www.coursera.org/account/accomplishments/verify/28PJZADZG4S2",
+      year: "10/2024"
+    },
+    {
       name: "Gestión de Proyectos y Fundamentos de Metodología Agile",
       issuer: "Santander Open Academy",
       badge: "assets/img/logos/open-academy.png",
       badgeFull: "assets/img/certificaciones/openacademy-agile.jpg",
       link: "",
       year: "10/2024"
+    },
+     {
+      name: "Foundations of Project Management",
+      issuer: "Google/Coursera",
+      badge: "assets/img/logos/coursera.png",
+      link: "https://www.coursera.org/account/accomplishments/verify/3KYSYFCW2SVB",
+      year: "09/2024"
     },
     {
       name: "AmazonDB for Serverless Architectures",
