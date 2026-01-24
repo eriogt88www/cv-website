@@ -42,6 +42,18 @@
       {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "Certification",
+        "name": "Master in Drupal 10",
+        "url": "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=D10MASTERCERT2552&field_s_certificado_codautentica_value=024b5"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Expert in Drupal 11 Site Building",
+        "url": "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA26012539&field_s_certificado_codautentica_value=4d554"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
         "name": "Expert in Drupal 10 Front-End Development",
         "url": "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA25032438&field_s_certificado_codautentica_value=9d6f5"
       },
@@ -72,7 +84,7 @@
       {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "Certification",
-        "name": "Forcontu Expert in Drupal 10 Back-End Development",
+        "name": "Expert in Drupal 10 Back-End Development",
         "url": "https://www.forcontu.com/en/certificate?field_s_certificado_id_value=XGA25022265&field_s_certificado_codautentica_value=5b008"
       },
       {
@@ -134,6 +146,12 @@
         "credentialCategory": "Certification",
         "name": "Google Project Management Professional Certificate",
         "url": "https://www.credly.com/go/3Y3Pp08P"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Agile Project Management",
+        "url": "https://www.coursera.org/account/accomplishments/verify/RTG0QWZXQ7D1"
       }
     ]
   }
