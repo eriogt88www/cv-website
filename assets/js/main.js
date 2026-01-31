@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("sm-title").textContent = p.title;
   document.getElementById("about-master").textContent = p.aboutMaster;
   document.getElementById("about-grade").textContent = p.aboutGrade;
-  document.getElementById("linkedin").href = p.linkedin;
+  document.getElementById("linkedin_navbar").href = p.linkedin;
+  document.getElementById("linkedin_sidebar").href = p.linkedin;
   document.getElementById("contact-info").textContent = p.contact;
   document.getElementById("year").textContent = new Date().getFullYear();
 
