@@ -287,6 +287,7 @@ const profileData = {
       issuer: "Vangarda",
       badge: "assets/img/logos/vangarda.png",      
       badgeFull: "assets/img/certificaciones/vangarda-abc.jpg",
+      badgeFull: "assets/img/certificaciones/vangarda-abc.jpg",
       link: "",
       year: "11/2025"
     },
@@ -301,6 +302,7 @@ const profileData = {
       name: "Trabajo en Remoto, Mejoras en la Comunicación",
       issuer: "Ciudadanía Digital / Castilla-La Mancha",
       badge: "assets/img/logos/ciudadania_digital.jpg",
+      link: "https://aulaciudadaniadigital.castillalamancha.es/mod/customcert/verify_certificate.php?code=LeS0PpJCgi",
       link: "https://aulaciudadaniadigital.castillalamancha.es/mod/customcert/verify_certificate.php?code=LeS0PpJCgi",
       year: "11/2025"
     },
@@ -359,6 +361,7 @@ const profileData = {
       badge: "assets/img/logos/ciudadania_digital.jpg",
       badgeFull: "assets/img/certificaciones/bilib-sgbd.jpg",
       link: "https://aulaciudadaniadigital.castillalamancha.es/mod/customcert/verify_certificate.php?code=o7DnB4Gjqv",
+      link: "https://aulaciudadaniadigital.castillalamancha.es/mod/customcert/verify_certificate.php?code=o7DnB4Gjqv",
       year: "09/2025"
     },
     {
@@ -398,6 +401,14 @@ const profileData = {
       year: "06/2025"
     },
     {
+      name: "Agile Scrum Training",
+      issuer: "Master of Project Academy",
+      badge: "assets/img/logos/master-project-academy.png",
+      badgeFull: "assets/img/certificaciones/mpa-ast.jpg",
+      link: "",
+      year: "06/2025"
+    },
+    {
       name: "DevOps Fundamentals - DASA",
       issuer: "TecnoFor",
       badge: "assets/img/logos/tecnofor.png",      
@@ -425,6 +436,14 @@ const profileData = {
       issuer: "Master of Project Academy",
       badge: "assets/img/logos/master-project-academy.png",
       badgeFull: "assets/img/certificaciones/mpa-spoct.jpg",
+      link: "https://aulaciudadaniadigital.castillalamancha.es/mod/customcert/verify_certificate.php?code=Fd95r2NHzC",
+      year: "04/2025"
+    },
+    {
+      name: "Scrum Product Owner Certification Training",
+      issuer: "Master of Project Academy",
+      badge: "assets/img/logos/master-project-academy.png",
+      badgeFull: "assets/img/certificaciones/mpa-spoct.jpg",
       link: "",
       year: "04/2025"
     },
@@ -441,6 +460,13 @@ const profileData = {
       issuer: "PMI",
       badge: "assets/img/badges/pmi-giapm.png",
       link: "https://www.credly.com/badges/f3fce846-eac2-4ca5-aca6-a9c3b66bd5a1/linked_in_profile",
+      year: "03/2025"
+    },
+     {
+      name: "Introduction to SAFe",
+      issuer: "Simplilearn",
+      badge: "assets/img/logos/simplilearn.png",
+      link: "https://simpli-web.app.link/e/VATsmAcwn0b",
       year: "03/2025"
     },
      {
