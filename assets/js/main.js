@@ -17,13 +17,20 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   p.experience.forEach(e => {
     var showCompany = !shownCompanies.has(e.companyId);
-    if (showCompany) shownCompanies.add(e.companyId);
+    if (showCompany) {shownCompanies.add(e.companyId)};
 
     expList.innerHTML += `
-      <div class="mb-3">
-        ${showCompany ? `<h5><img src="${e.logo}" class="logo" alt="">${e.company}</h5>` : ""}
-        <p><strong>${e.role}</strong> (${e.period})</p>
-        <p>${e.description}</p>
+      <div class="mb-1 d-flex align-items-center">    
+        ${showCompany ? `
+          ${e.link ? `<a href="${e.link}" target="_blank" rel="noopener noreferrer">` : ""}
+            <img src="${e.logo}" class="logo" alt="${e.company}">       
+          ${e.link ? `</a>` : ""}
+          <h5>${e.company}</h5>
+        ` : ""}                        
+        </div class="mb-1">
+          <p><strong>${e.role}</strong> (${e.period})</p>
+          <p>${e.description}</p>
+        <div> 
       </div>
     `;
   });
@@ -32,13 +39,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   p.education.forEach(e => {
     eduList.innerHTML += `
       <div class="mb-4 d-flex align-items-center">
-        <img src="${e.logo}" class="logo me-3" alt="${e.institution}">
+        ${e.link ? `<a href="${e.link}" target="_blank" rel="noopener noreferrer">` : ""}
+        <img src="${e.logo}" class="logo" alt="${e.institution}">
+        ${e.link ? `</a>` : ""}
         <div>
           <h5 class="mb-1">${e.degree} - ${e.year}</h5>
           <p class="mb-0 text-muted">${e.institution}</p>
         </div>
       </div>
-
     `;
   });
 
