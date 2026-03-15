@@ -18,66 +18,83 @@ const profileData = {
 
   experience: [
     {
+      company: "IMMUNE Technology Institute",
+      companyId: 5,
+      role: "Formador en Informática",
+      period: "02/2026 - Actualidad",
+      description: "Formación en tecnologías informáticas. Planificación y estructuración de contenidos formativos." + 
+        " Coordinación de grupos y seguimiento del progreso de los participantes." + 
+        " Resolución de dudas técnicas y acompañamiento individualizado. Evaluación del aprendizaje y mejora continua del programa formativo.",
+      logo: "assets/img/logos/immune.jpg",
+      link: "https://immune.institute/"
+    },
+    {
       company: "inCentea España S.L.",
-      companyId: 1,
+      companyId: 4,
       role: "Project Manager",
       period: "05/2025 - 07/2025",
       description: "Planificación inicial de proyectos, análisis de requisitos y elaboración de documentación técnica." + 
         " Gestión de cronogramas y aplicación de metodologías híbridas y ágiles. Colaboración con equipos multidisciplinarios," + 
         " facilitando reuniones y comunicaciones efectivas. Supervisión del progreso del proyecto, identificando riesgos y proponiendo medidas correctivas.",
-      logo: "assets/img/logos/incentea.jpeg"
+      logo: "assets/img/logos/incentea.jpeg",
+      link: "https://incentea.com/es/"
     },
     {
       company: "Desoft",
-      companyId: 2,
+      companyId: 3,
       role: "Software Deployment and Support - Level 3",
       period: "11/2022 - 06/2024",
       description: "Despliegue y soporte de aplicaciones de software desde entornos de desarrollo hasta entornos de producción." + 
         " Formación y soporte inicial a los usuarios finales, así como resolución de problemas técnicos y actualizaciones de software." + 
         " Administración de servidores de BD y APP en Linux.",
-      logo: "assets/img/logos/desoft.jpeg"
+      logo: "assets/img/logos/desoft.jpeg",
+      link: "https://www.desoft.cu/es"
     },
     {
       company: "First Due",
-      companyId: 3,
+      companyId: 2,
       role: "Full Stack Web Developer",
       period: "11/2022 - 08/2023",
       description: "Desarrollo de funcionalidades web mediante el uso de Yii Framework y VueJS, utilizando los lenguajes" + 
         " de programación PHP, Javascript y SQL. Gestión de BD con PostgreSQL, uso de Doctrine como ORM y manejo de repositorio " + 
         "de componentes con GitHub.",
-      logo: "assets/img/logos/firstdue.jpeg"
+      logo: "assets/img/logos/firstdue.jpeg",
+      link: "https://www.firstdue.com/"
     },
     {
       company: "Empresa de Tecnologías de la Información",
-      companyId: 4,
+      companyId: 1,
       role: "Project Manager | Scrum Master",
       period: "01/2020 - 05/2022",
       description: "Desempeño del rol de Project Manager y Scrum Master utilizando las metodologías ágiles XP (Extreme Programming)" + 
         " y SCRUM, ciclo de desarrollo rápido, mediante la entrega continua de una versión de software funcional." + 
         " Empleo de una comunicación fluida con el cliente para asegurar que los requisitos del software y las expectativas " + 
         "se encuentren alineadas.",
-      logo: "assets/img/logos/eti.png"
+      logo: "assets/img/logos/eti.png",
+      link: "https://www.xetid.cu/es"
     },
     {
       company: "Empresa de Tecnologías de la Información",
-      companyId: 4,
+      companyId: 1,
       role: "Full Stack Web Developer",
       period: "01/2014 - 12/2019",
       description: "Desarrollo de aplicaciones web mediante el uso de Zend Framework y ExtJS, utilizando los lenguajes de " + 
         "programación PHP, Javascript y SQL. Gestión de BD con PostgreSQL, uso de Doctrine como ORM y manejo de repositorio de " + 
         "componentes con GitLab y Subversion. Implementación y mantenimiento de servicios API RESTful.",
-      logo: "assets/img/logos/eti.png"
+      logo: "assets/img/logos/eti.png",
+      link: "https://www.xetid.cu/es"
     },
     {
       company: "Empresa de Tecnologías de la Información",
-      companyId: 4,
+      companyId: 1,
       role: "Program Manager",
       period: "09/2012 - 12/2013",
       description: "Gestión y coordinación en la fase de despliegue y explotación experimental de 6 proyectos estratégicos: " + 
         "programa de mejora, infraestructura tecnológica, videovigilancia y 3 sistemas de gestión. Supervisión de la implementación, " + 
         "integración y operatividad de las soluciones. Coordinación de equipos multidisciplinarios, optimización de recursos y " + 
         "alineación con la estrategia organizativa.",
-      logo: "assets/img/logos/eti.png"
+      logo: "assets/img/logos/eti.png",
+      link: "https://www.xetid.cu/es"
     },
   ],
 
@@ -86,13 +103,15 @@ const profileData = {
       institution: "Universidad de Santiago de Compostela (USC)",
       degree: "Máster Universitario en Dirección de Proyectos",
       year: "07/2025",
-      logo: "assets/img/logos/usc.svg"
+      logo: "assets/img/logos/usc.svg",
+      link: "https://www.usc.gal/es/estudios/masteres/ingenieria-arquitectura/master-universitario-direccion-proyectos-2a-edicion"
     },
     {
       institution: "Universidad de las Ciencias Informáticas (UCI)",
       degree: "Ingeniero en Ciencias Informáticas",
       year: "07/2011",
-      logo: "assets/img/logos/uci.png"
+      logo: "assets/img/logos/uci.png",
+      link: "https://www.uci.cu/estudios/pregrado"
     }
   ],
 
@@ -226,6 +245,14 @@ const profileData = {
   ],
 
   courses: [
+    {
+      name: "Free Introduction: PMI Certified Professional in Managing AI",
+      issuer: "PMI",
+      badge: "assets/img/logos/pmi.svg",
+      badgeFull: "assets/img/certificaciones/pmi-intro_cpmai.jpg",
+      link: "",
+      year: "03/2026"
+    },
     {
       name: "Designing Event-Driven Architectures",
       issuer: "AWS Training and Certification",
