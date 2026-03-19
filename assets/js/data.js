@@ -117,6 +117,13 @@ const profileData = {
 
   certifications: [
     {
+      name: "Security for Software Development Managers (LFD125)",
+      issuer: "The Linux Foundation",
+      badge: "assets/img/badges/linux-foundation_lfd125.png",
+      link: "https://www.credly.com/badges/49ea97e7-c798-4d44-a4e5-7507f0de0063",
+      year: "03/2026"
+    },
+    {
       name: "Master in Drupal 10",
       issuer: "Forcontu",
       badge: "assets/img/badges/forcontu-d10-master-en.png",
