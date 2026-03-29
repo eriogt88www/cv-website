@@ -117,6 +117,13 @@ const profileData = {
 
   certifications: [
     {
+      name: "Agile con Scrum",
+      issuer: "Digital Skills Institute",
+      badge: "assets/img/logos/dsi.png",
+      link: "https://www.digitalskillsinstitute.com/certificates/agile-scrum/?69b31ac7-2c05-4127-8de0-2d7f1b5d9015",
+      year: "03/2026"
+    },
+    {
       name: "Security for Software Development Managers (LFD125)",
       issuer: "The Linux Foundation",
       badge: "assets/img/badges/linux-foundation_lfd125.png",
@@ -252,6 +259,14 @@ const profileData = {
   ],
 
   courses: [
+    {
+      name: "Scrum with AI Certified Course",
+      issuer: "SCRUMstudy",
+      badge: "assets/img/logos/scrum-study.png",
+      badgeFull: "assets/img/certificaciones/ss-saicc.jpg",
+      link: "",
+      year: "03/2026"
+    },
     {
       name: "Free Introduction: PMI Certified Professional in Managing AI",
       issuer: "PMI",
