@@ -117,6 +117,13 @@ const profileData = {
 
   certifications: [
     {
+      name: "Scrum with AI Certified (SAC™)",
+      issuer: "SCRUMstudy",
+      badge: "assets/img/badges/ss-sac.png",
+      link: "https://www.scrumstudy.com/certification/verify?type=SAC&number=1156147",
+      year: "04/2026"
+    },
+    {
       name: "Agile con Scrum",
       issuer: "Digital Skills Institute",
       badge: "assets/img/logos/dsi.png",
@@ -173,9 +180,9 @@ const profileData = {
       year: "10/2025"
     },
     {
-      name: "Kanban Essentials with AI Certified (KEC)",
+      name: "Kanban Essentials with AI Certified (KEC™)",
       issuer: "KanbanStudy",
-      badge: "assets/img/badges/ss-kewia-2.png",
+      badge: "assets/img/badges/ss-kewia.png",
       link: "https://www.scrumstudy.com/certification/verify?type=KEC&number=1118854",
       year: "10/2025"
     },
@@ -260,10 +267,23 @@ const profileData = {
 
   courses: [
     {
+      name: "Introduction to Scrum Master",
+      issuer: "EDAP Business School",
+      badge: "assets/img/badges/edap-intro_scrum.png",
+      link: "https://badges.parchment.com/public/assertions/external?identity__email=eriogt88.www@gmail.com&url=https:%2F%2Fwww.campusedap.com%2Fbadges%2Fassertion.php%3Fb%3D03f849b7913b6c95f875e15d7c5a3ee3d34c560b%26obversion%3D2",
+      year: "04/2026"
+    },
+    {
+      name: "Programación PHP",
+      issuer: "Formencia",
+      badge: "assets/img/logos/formencia.png",
+      link: "https://formencia.com/certificates/sertifika/?c=1112840&u=417403",
+      year: "04/2026"
+    },
+    {
       name: "Scrum with AI Certified Course",
       issuer: "SCRUMstudy",
       badge: "assets/img/logos/scrum-study.png",
-      badgeFull: "assets/img/certificaciones/ss-saicc.jpg",
       link: "",
       year: "03/2026"
     },
