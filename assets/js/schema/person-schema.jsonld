@@ -12,7 +12,8 @@
       "https://www.linkedin.com/in/erio-gutierrez/",
       "https://github.com/eriogt88www",
       "https://www.credly.com/users/erio-gutierrez/badges",
-      "https://learn.microsoft.com/es-es/users/erio-gutierrez"
+      "https://learn.microsoft.com/es-es/users/erio-gutierrez",
+      "https://badges.parchment.com/public/collections/b58cb99a8e56458bb8d65d0899618107"
     ],
     "alumniOf": [
       {
@@ -34,11 +35,29 @@
         "degree": {
           "@type": "EducationalOccupationalCredential",
           "credentialCategory": "EngineeringDegree",
-          "name": "Ingeniería en Ciencias Informáticas"
+          "name": "Ingeniero en Ciencias Informáticas"
         }
       }
     ],
     "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Scrum with AI Certified (SAC™)",
+        "url": "https://www.scrumstudy.com/certification/verify?type=SAC&number=1156147"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Agile con Scrum",
+        "url": "https://www.digitalskillsinstitute.com/certificates/agile-scrum/?69b31ac7-2c05-4127-8de0-2d7f1b5d9015"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "LFD125: Security for Software Development Managers",
+        "url": "https://www.credly.com/badges/49ea97e7-c798-4d44-a4e5-7507f0de0063"
+      },
       {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "Certification",
@@ -78,7 +97,7 @@
       {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "Certification",
-        "name": "Kanban Essentials with AI Certified (KEC)",
+        "name": "Kanban Essentials with AI Certified (KEC™)",
         "url": "https://www.scrumstudy.com/certification/verify?type=KEC&number=1118854"
       },
       {
