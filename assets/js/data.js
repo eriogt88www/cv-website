@@ -267,6 +267,20 @@ const profileData = {
 
   courses: [
     {
+      name: "Agent Explorer",
+      issuer: "Founderz",
+      badge: "assets/img/logos/founderz.jpeg",
+      link: "https://learn.founderz.com/certificate/agent-explorer/3c3fd0be-ff63-4cb9-8deb-07bba50f4d3e",
+      year: "04/2026"
+    },
+    {
+      name: "Work Smarter with AI",
+      issuer: "Microsoft Learning",
+      badge: "assets/img/logos/microsoft-learning.png",
+      link: "https://learn.microsoft.com/es-es/users/erio-gutierrez/achievements/elqf4q7p",
+      year: "04/2026"
+    },
+    {
       name: "Introduction to Scrum Master",
       issuer: "EDAP Business School",
       badge: "assets/img/badges/edap-intro_scrum.png",
@@ -284,6 +298,7 @@ const profileData = {
       name: "Scrum with AI Certified Course",
       issuer: "SCRUMstudy",
       badge: "assets/img/logos/scrum-study.png",
+      badgeFull: "assets/img/certificaciones/ss-saicc.jpg",
       link: "",
       year: "03/2026"
     },
