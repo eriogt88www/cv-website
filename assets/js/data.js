@@ -117,6 +117,13 @@ const profileData = {
 
   certifications: [
     {
+      name: "Remote Digital Workplace Certified Associate (RDCA)",
+      issuer: "CertJoin",
+      badge: "assets/img/badges/certjoin-rdca.png",
+      link: "https://campus.certjoin.com/badges/badge.php?hash=51baa8cc5f9a4abae2d00520f42a158bc6a97b9d",
+      year: "05/2026"
+    },
+    {
       name: "Scrum with AI Certified (SAC™)",
       issuer: "SCRUMstudy",
       badge: "assets/img/badges/ss-sac.png",
@@ -267,6 +274,13 @@ const profileData = {
 
   courses: [
     {
+      name: "PM C1-PM² Essentials, Project Management Methodology",
+      issuer: "Europe Academy",
+      badge: "assets/img/logos/ue-academy.png",
+      link: "https://academy.europa.eu/mod/customcert/verify_certificate.php?contextid=7372&code=XfHfIfwMjE&qrcode=1",
+      year: "05/2026"
+    },
+    {
       name: "Agent Explorer",
       issuer: "Founderz",
       badge: "assets/img/logos/founderz.jpeg",
@@ -411,12 +425,33 @@ const profileData = {
       year: "10/2025"
     },
     {
+      name: "MongoDB CRUD Operations: Replace and Delete Documents",
+      issuer: "MongoDB University",
+      badge: "assets/img/logos/mongodb-university.png",
+      link: "https://learn.mongodb.com/c/vffw7jHLT9mddCP2BXNyzw",
+      year: "10/2025"
+    },
+    {
       name: "Diseño y Gestión de BD SQL: Modelado, Consultas Avanzadas y Administración",
       issuer: "Ciudadanía Digital / Castilla-La Mancha",
       badge: "assets/img/logos/ciudadania_digital.jpg",
       badgeFull: "assets/img/certificaciones/bilib-sgbd.jpg",
       link: "https://aulaciudadaniadigital.castillalamancha.es/mod/customcert/verify_certificate.php?code=o7DnB4Gjqv",
       year: "10/2025"
+    },
+    {
+      name: "MongoDB CRUD Operations: Insert and Find Documents",
+      issuer: "MongoDB University",
+      badge: "assets/img/logos/mongodb-university.png",
+      link: "https://learn.mongodb.com/c/mGVBBVGcSCaHmE-RkfWgxQ",
+      year: "09/2025"
+    },
+    {
+      name: "Connecting to a MongoDB Database Using the MongoDB Shell",
+      issuer: "MongoDB University",
+      badge: "assets/img/logos/mongodb-university.png",
+      link: "https://learn.mongodb.com/c/lJ1W-nfrSymWjgErdU2ETQ",
+      year: "09/2025"
     },
     {
       name: "Inteligencia Artificial Responsable",
