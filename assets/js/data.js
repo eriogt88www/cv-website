@@ -117,6 +117,13 @@ const profileData = {
 
   certifications: [
     {
+      name: "Gen AI User",
+      issuer: "Certiprof",
+      badge: "assets/img/badges/certiprof-gen_ia_user.png",
+      link: "https://www.credly.com/badges/786b39fa-dd01-4fab-b6b3-d7a82953a010",
+      year: "05/2026"
+    },
+    {
       name: "Remote Digital Workplace Certified Associate (RDCA)",
       issuer: "CertJoin",
       badge: "assets/img/badges/certjoin-rdca.png",
@@ -272,7 +279,22 @@ const profileData = {
     },
   ],
 
-  courses: [
+  courses: [    
+    {
+      name: "English Placement Test - B1",
+      issuer: "Europe Academy",
+      badge: "assets/img/logos/ue-academy.png",
+      badgeFull: "assets/img/certificaciones/academyeuropa-en_test_b1.jpg",
+      link: "",
+      year: "05/2026"
+    },
+    {
+      name: "Talking to AI: Prompt Engineering for Project Managers",
+      issuer: "PMI",
+      badge: "assets/img/badges/pmi-tiaopm.png",
+      link: "https://www.credly.com/badges/cea89f5b-9731-41e9-b122-14044dccb191",
+      year: "05/2026"
+    },
     {
       name: "PM C1-PM² Essentials, Project Management Methodology",
       issuer: "Europe Academy",
