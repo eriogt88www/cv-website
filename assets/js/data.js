@@ -279,7 +279,28 @@ const profileData = {
     },
   ],
 
-  courses: [    
+  courses: [
+    {
+      name: "Claude Code in Action",
+      issuer: "Anthropic Education",
+      badge: "assets/img/logos/anthropic.png",
+      link: "https://verify.skilljar.com/c/dsusan6u9mvx",
+      year: "06/2026"
+    },  
+    {
+      name: "Scrum Product Owner",
+      issuer: "CertiGlobal",
+      badge: "assets/img/badges/certiglobal-spo.webp",
+      link: "https://study.certiglobal.org/verify/certificate/772d56480976f1bc",
+      year: "06/2026"
+    },
+    {
+      name: "Scrum Master",
+      issuer: "CertiGlobal",
+      badge: "assets/img/badges/certiglobal-sm.webp",
+      link: "https://study.certiglobal.org/verify/certificate/5a218c0bd7d8c903",
+      year: "06/2026"
+    },
     {
       name: "English Placement Test - B1",
       issuer: "Europe Academy",
