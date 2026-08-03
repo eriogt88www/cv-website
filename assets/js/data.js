@@ -21,7 +21,7 @@ const profileData = {
       company: "IMMUNE Technology Institute",
       companyId: 5,
       role: "Formador en Informática",
-      period: "02/2026 - Actualidad",
+      period: "02/2026 - 04/2026",
       description: "Formación en tecnologías informáticas. Planificación y estructuración de contenidos formativos." + 
         " Coordinación de grupos y seguimiento del progreso de los participantes." + 
         " Resolución de dudas técnicas y acompañamiento individualizado. Evaluación del aprendizaje y mejora continua del programa formativo.",
@@ -43,7 +43,7 @@ const profileData = {
       company: "Desoft",
       companyId: 3,
       role: "Software Deployment and Support - Level 3",
-      period: "11/2022 - 06/2024",
+      period: "11/2022 - 03/2024",
       description: "Despliegue y soporte de aplicaciones de software desde entornos de desarrollo hasta entornos de producción." + 
         " Formación y soporte inicial a los usuarios finales, así como resolución de problemas técnicos y actualizaciones de software." + 
         " Administración de servidores de BD y APP en Linux.",
@@ -54,7 +54,7 @@ const profileData = {
       company: "First Due",
       companyId: 2,
       role: "Full Stack Web Developer",
-      period: "11/2022 - 08/2023",
+      period: "11/2022 - 07/2023",
       description: "Desarrollo de funcionalidades web mediante el uso de Yii Framework y VueJS, utilizando los lenguajes" + 
         " de programación PHP, Javascript y SQL. Gestión de BD con PostgreSQL, uso de Doctrine como ORM y manejo de repositorio " + 
         "de componentes con GitHub.",
@@ -77,7 +77,7 @@ const profileData = {
       company: "Empresa de Tecnologías de la Información",
       companyId: 1,
       role: "Full Stack Web Developer",
-      period: "01/2014 - 12/2019",
+      period: "04/2014 - 12/2019",
       description: "Desarrollo de aplicaciones web mediante el uso de Zend Framework y ExtJS, utilizando los lenguajes de " + 
         "programación PHP, Javascript y SQL. Gestión de BD con PostgreSQL, uso de Doctrine como ORM y manejo de repositorio de " + 
         "componentes con GitLab y Subversion. Implementación y mantenimiento de servicios API RESTful.",
@@ -88,7 +88,7 @@ const profileData = {
       company: "Empresa de Tecnologías de la Información",
       companyId: 1,
       role: "Program Manager",
-      period: "09/2012 - 12/2013",
+      period: "10/2013 - 03/2014",
       description: "Gestión y coordinación en la fase de despliegue y explotación experimental de 6 proyectos estratégicos: " + 
         "programa de mejora, infraestructura tecnológica, videovigilancia y 3 sistemas de gestión. Supervisión de la implementación, " + 
         "integración y operatividad de las soluciones. Coordinación de equipos multidisciplinarios, optimización de recursos y " + 
